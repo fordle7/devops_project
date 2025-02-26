@@ -9,7 +9,6 @@ from network_stack import NetworkStack
 
 
 class CdkTomcatDeploymentStack(Stack):
-
     def __init__(
         self,
         scope: Construct,

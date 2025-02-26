@@ -4,7 +4,6 @@ from constructs import Construct
 
 
 class CdkStage(Stage):
-
     def __init__(self, scope: Construct, id: str, env_name: str, **kwargs):
         super().__init__(scope, id, **kwargs)
 
